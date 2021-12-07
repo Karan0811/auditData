@@ -7,3 +7,6 @@ Step 2 : Install all the Packages \
 Step 3 : Replace dbUrl in config File \
 Step 4 : Run \
 ### `node index.js`
+
+
+And Sample Json file is in config/sample.js
