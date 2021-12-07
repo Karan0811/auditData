@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.14"
+    "mongoose": "^6.0.14",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
   }
 }

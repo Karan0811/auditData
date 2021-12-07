@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
-const MONGO_URI =
-  'mongodb://localhost:27017/auditDataDb?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false';
+const config = require('./config/config');
+
+const MONGO_URI = config.dbUrl;
 
 const connectToMongo = () => {
   mongoose.connect(MONGO_URI, () => {
